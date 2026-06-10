@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(10, 6, 1);
+    color: black;
+    align-items: flex-start;
+}
+
+#app-title {
+    width: min(700px 92%);
+    margin: 40px auto;
+    color: red;
+    text-shadow: 0 0 8px rgba(82, 226, 229, 0.5);
+}
+
+#movie-count {
+    margin-top: 0;
+    font-weight: bold;
+    color: white;
+}
+
+#movie-form {
+    display: flex;
+    height: 24px;
+    border-radius: 10px;
+}
+
+#title-input {
+    height: 24px;
+}
+
+#genre-input {
+    display: flex;
+}
+
+#add-btn {
+    width: 100%;
+    border: 2px solid rgb(112, 106, 231);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .8rem;
+    height: 24;
+    max-width: fit-content;
+    display: flexbox;
+}
+
+#filter-bar {
+    font-size: 0px;
+}
+
+#filter-all {
+    background-color: beige;
+    color: black;
+    border-radius: .85rem;
+}
+
+#filter-unwatched {
+    background-color: beige;
+    color: black;
+    border-radius: .85rem;
+}
+
+#filter-watched {
+    background-color: beige;
+    color: black;
+    border-radius: .85rem;
+}
+
+#clear-watched-btn {
+    background-color: beige;
+    color: black;
+    border-radius: .85rem;
+}
+
+#movie-list {
+    background-color: beige;
+    color: black;
+    border-radius: .85rem;
+}
+
+/* Applied to the <li> when a movie is marked watched */
+.watched {
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+/* Applied to whichever filter button is currently active */
+.active-filter {
+    background-color: #1a1a2e;
+    color: white;
+}
+
+/* Applied to cards that don't match the current filter — hides them */
+.filtered-out {
+    display: none;
+}
