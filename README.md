@@ -1,3 +1,8 @@
+# Description of repo
+## Using HTML, CSS, and Javascript to create a movie watchlist that filters watched and unwatched movies for all the people who want to give you wife better knowledge of quality films.
+<img width="998" height="532" alt="image" src="https://github.com/user-attachments/assets/b2cdddf4-689a-4373-92ed-b5e59b8b9454" />
+
+
 # DOM Workshop Part 2: Movie Watchlist
 
 ## The Scenario
