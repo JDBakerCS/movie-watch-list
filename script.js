@@ -1,4 +1,3 @@
-// =====================================================
 // Phase 1: Connect to the DOM
 // =====================================================
 
@@ -33,7 +32,6 @@ console.log("Movie list:", movieList);
 console.log("Clear watched button:", clearWatchedBtn);
 console.log("Filter buttons:", filterBtns);
 
-
 // =====================================================
 // Phase 2: Review DOM Tools
 // =====================================================
@@ -65,9 +63,6 @@ titleInput.setAttribute("required", "");
 // What is the difference between getAttribute("value") and .value on an input?
 // getAttribute("value") → reads the original HTML attribute value, if one exists.
 // .value               → reads what the user actually typed right now.
-
-
-// =====================================================
 // Phase 4 Helper: Create a Movie Card
 // =====================================================
 
@@ -127,9 +122,6 @@ function createMovieCard(title, genre) {
   // Return the finished card
   return card;
 }
-
-
-// =====================================================
 // Phase 6 Helper: Update Movie Count
 // =====================================================
 
