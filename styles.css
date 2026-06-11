@@ -80,6 +80,7 @@ body {
     background-color: beige;
     color: black;
     border-radius: .85rem;
+    border-color: red;
 }
 
 /* Applied to the <li> when a movie is marked watched */
